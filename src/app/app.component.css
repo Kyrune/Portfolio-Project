@@ -1,0 +1,15 @@
+/* Sets position of background image container */
+.background-image {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../assets/images/circuits.jpg');
+  z-index: -2;
+}
