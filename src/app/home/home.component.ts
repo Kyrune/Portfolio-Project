@@ -6,15 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  city = 'Cashton, Wisconsin';
+  aboutMe = `I\'m a junior full stack developer and I enjoy creating stuff! I pride myself with the ability to sit in
+  front of a screen for hours on end in blissful solitude. I love learning new things,
+  and aim to learn from those more experienced than myself as I pursue opportunities to bring creativity
+  and passion to my code, team, and work environment.`;
 
-  city = 'Where I live: Cashton, Wisconsin';
-  aboutMe = `I\'m a junior full stack developer and I enjoy creating stuff! I pride myself on a sense of humor
-  and the ability to sit in front of a screen for hours on end in blissful solitude. I love learning new things,
-  honing my coding skills, and designing websites for optimal user experience, creativity, and efficiency.`;
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
