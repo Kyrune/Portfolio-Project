@@ -55,6 +55,7 @@ span {
   margin: 0 auto;
   height: auto;
   width: 577px;
+  max-width: 100%;
 }
 /* Stylizes both images */
 .tagline img {
