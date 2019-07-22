@@ -8,6 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { NavComponent } from './nav/nav.component';
 import { SkillsService } from './skills/skills.service';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SkillsService } from './skills/skills.service';
     HomeComponent,
     ProjectsComponent,
     SkillsComponent,
-    NavComponent
+    NavComponent,
+    AboutComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [SkillsService],

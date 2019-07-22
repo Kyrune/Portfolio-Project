@@ -73,7 +73,7 @@ span {
   transition: opacity 1s linear;
   cursor: pointer;
 }
-/* Hover image change to color version */
+/* Image change to color version on hover */
 .tagline:hover > .front-image {
   opacity: 0;
 }
