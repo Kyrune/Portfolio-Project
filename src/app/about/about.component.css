@@ -1,0 +1,29 @@
+/* Conainter for both images */
+.images {
+  position: relative;
+  margin: auto;
+  margin-top: 2rem;
+  height: auto;
+  width: 577px;
+  max-width: 100%;
+}
+/* Stylizes both images */
+.images img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.267);
+  height: auto;
+  max-width: 100%;
+}
+/* Stylizes front image (colorless) */
+.images .front-image {
+  z-index: 9999;
+  transition: opacity 1s linear;
+  cursor: pointer;
+}
+/* Image change to color version on hover */
+.images:hover > .front-image {
+  opacity: 0;
+}
