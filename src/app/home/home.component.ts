@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  city = 'Cashton, Wisconsin';
   aboutMe = `I\'m a junior full stack developer and I enjoy creating stuff! I pride myself with the ability to sit in
   front of a screen for hours on end in blissful solitude. I love learning new things,
   and aim to learn from those more experienced than myself as I pursue opportunities to bring creativity

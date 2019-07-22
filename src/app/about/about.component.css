@@ -1,4 +1,16 @@
-/* Conainter for both images */
+/* Stylizes City container */
+h3 {
+  color: rgb(110, 214, 248);
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: rgb(12, 13, 14);
+  box-shadow: inset 0 0 15px rgb(110, 214, 248);
+  padding: 1em;
+  width: 15%;
+  border-radius: 20px;
+}
+/* Container for both Azur images */
 .images {
   position: relative;
   margin: auto;
@@ -20,7 +32,7 @@
 /* Stylizes front image (colorless) */
 .images .front-image {
   z-index: 9999;
-  transition: opacity 1s linear;
+  transition: opacity 2s linear;
   cursor: pointer;
 }
 /* Image change to color version on hover */
