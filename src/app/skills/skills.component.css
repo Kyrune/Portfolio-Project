@@ -11,7 +11,7 @@ h1 {
   border-radius: 20px;
 }
 /* Div container for list of skills */
-.container {
+.skills-container {
   display: flex;
   width: 76%;
   margin: auto;
