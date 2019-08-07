@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
+  mindstorm = `Group project MindStorm is a MEAN stack website geared toward writers
+  for the purpose of providing a place to brainstorm ideas for stories
+  and characters, while displaying stories for constructive criticism.`;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
