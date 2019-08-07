@@ -1,11 +1,8 @@
-/* Div container */
-.container {
+/* Positions GitHub link */
+.git-link {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-  min-height: 80vh;
+  margin: 3rem;
 }
 /* GitHub link */
 a {
@@ -26,11 +23,15 @@ a:hover {
 /* Project MindStorm container */
 .mindstorm-container {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
   color: rgb(110, 214, 248);
   padding: 1rem;
   background-color: rgb(12, 13, 14);
   border-radius: 20px;
-  box-shadow: inset 0 0 15px rgb(110, 214, 248);
+  box-shadow: inset 0 0 20px rgb(110, 214, 248);
 }
 /* MindStorm title and date container */
 .mindstorm-date-logo {
@@ -48,19 +49,34 @@ a:hover {
 .spacer {
   flex: 1;
 }
+h4 {
+  margin-top: 4rem;
+}
+/* MindStorm project title container */
+.mindstorm-title {
+  display: flex;
+  justify-content: center;
+}
 /* Paragraph for MindStorm description */
 p {
   width: 50%;
 }
+/* MindStorm Team page image container */
 .mindstorm-img {
   display: flex;
-  margin: auto;
-  /* justify-content: center; */
+  justify-content: center;
 }
-.space {
-  flex: 0.5;
-}
-.team-image {
+/* MindStorm team page image */
+.team-img {
   max-width: 100%;
   height: auto;
+}
+
+/* Under construction */
+@media screen and (max-width: 950px) {
+  .mindstorm-date-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
