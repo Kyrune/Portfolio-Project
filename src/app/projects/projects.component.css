@@ -1,3 +1,11 @@
+/* Under construction */
+@media screen and (max-width: 950px) {
+  .mindstorm-date-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 /* Positions GitHub link */
 .git-link {
   display: flex;
@@ -70,13 +78,4 @@ p {
 .team-img {
   max-width: 100%;
   height: auto;
-}
-
-/* Under construction */
-@media screen and (max-width: 950px) {
-  .mindstorm-date-logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
 }
