@@ -6,73 +6,108 @@
     justify-content: center;
   }
 }
-/* Positions GitHub link */
+/* Positions main GitHub link container */
 .git-link {
   display: flex;
   justify-content: center;
   margin: 3rem;
 }
-/* GitHub link */
-a {
-  color: rgb(110, 214, 248);
-  text-decoration: none;
-  font-size: 2rem;
+/* GitHub anchor link */
+.git-link a {
   padding: 1rem;
-  background-color: rgb(12, 13, 14);
+  font-size: 2rem;
+  text-decoration: none;
   border-radius: 20px;
+  color: rgb(110, 214, 248);
+  background-color: rgb(12, 13, 14);
   box-shadow: inset 0 0 15px rgb(110, 214, 248);
 }
 /* Hover effect for GitHub link */
-a:hover {
-  background-color: rgb(110, 214, 248);
+.git-link a:hover {
   color: rgb(33, 38, 39);
+  background-color: rgb(110, 214, 248);
   box-shadow: 0px 0px 20px rgb(110, 214, 248);
 }
 /* Project MindStorm container */
 .mindstorm-container {
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 70%;
   margin: auto;
-  color: rgb(110, 214, 248);
-  padding: 1rem;
-  background-color: rgb(12, 13, 14);
+  padding-bottom: 2rem;
   border-radius: 20px;
-  box-shadow: inset 0 0 20px rgb(110, 214, 248);
-}
-/* MindStorm title and date container */
-.mindstorm-date-logo {
-  display: flex;
-  flex-wrap: wrap;
+  color: rgb(110, 214, 248);
+  background-color: rgba(12, 13, 14, 0.85);
+  box-shadow: inset 0 0 20px rgb(247, 238, 211);
 }
 /* MindStorm title and image container */
 .mindstorm-logo-title {
   display: flex;
-  height: 8rem;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  height: 4rem;
 }
-/* Generic spacer forces date to far right */
-.spacer {
-  flex: 1;
-}
-h4 {
-  margin-top: 4rem;
+/* Mindstorm h1 container */
+.mindstorm-title {
+  font-family: 'Merienda', cursive;
 }
 /* MindStorm project title container */
-.mindstorm-title {
+.mindstorm-about {
   display: flex;
   justify-content: center;
+  text-align: center;
+  margin-top: 4rem;
 }
 /* Paragraph for MindStorm description */
-p {
+.mindstorm-about p {
   width: 50%;
+  padding: 1.5rem;
+  border-radius: 30px;
+  color: rgb(110, 214, 248);
+  background-color: rgb(12, 13, 14);
+  box-shadow: inset 0 0 20px rgb(110, 214, 248);
+}
+/* Links to MindStorm's front and backend repos */
+.mindstorm-about a {
+  font-size: 1.5rem;
+  color: rgb(110, 214, 248);
+}
+/* Hover effect for MindStorm front and backend repo links */
+.mindstorm-about a:hover {
+  text-decoration: none;
+  border-radius: 20px;
+  color: rgb(33, 38, 39);
+  background-color: rgb(110, 214, 248);
+  box-shadow: 0px 0px 20px rgb(110, 214, 248);
+}
+/* MindStorm Team and image container */
+.mindstorm-team-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 1.5rem;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgb(12, 13, 14);
+  box-shadow: inset 0 0 20px rgb(110, 214, 248);
+}
+/* Team members paragraph */
+.mindstorm-team-img p {
+  margin: -0.5rem;
 }
 /* MindStorm Team page image container */
 .mindstorm-img {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 /* MindStorm team page image */
 .team-img {
