@@ -21,9 +21,8 @@
   background-color: rgb(110, 214, 248);
   box-shadow: 0px 0px 20px rgb(110, 214, 248);
 }
-/* Project MindStorm container */
-.mindstorm-container {
-  border-radius: 30px;
+/* Main container */
+.container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -36,7 +35,7 @@
   box-shadow: inset 0 0 20px rgb(247, 238, 211);
 }
 /* MindStorm title and image container */
-.mindstorm-logo-title {
+.logo-title {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -47,15 +46,15 @@
 .mindstorm-logo-title h1 {
   font-family: 'Merienda', cursive;
 }
-/* MindStorm project title container */
-.mindstorm-about {
+/* Title & description container */
+.about {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-top: 4rem;
 }
 /* Paragraph for MindStorm description */
-.mindstorm-about p {
+.about p {
   width: 56%;
   padding: 1.5rem;
   border-radius: 30px;
@@ -64,20 +63,20 @@
   box-shadow: inset 0 0 20px rgb(110, 214, 248);
 }
 /* Links to MindStorm's front and backend repos */
-.mindstorm-about a {
+.about a {
   font-size: 1.5rem;
   color: rgb(110, 214, 248);
 }
 /* Hover effect for MindStorm front and backend repo links */
-.mindstorm-about a:hover {
+.about a:hover {
   text-decoration: none;
   border-radius: 20px;
   color: rgb(33, 38, 39);
   background-color: rgb(110, 214, 248);
   box-shadow: 0px 0px 20px rgb(110, 214, 248);
 }
-/* MindStorm Team and image container */
-.mindstorm-team-img {
+/* Team and image container */
+.team-img {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,11 +89,11 @@
   box-shadow: inset 0 0 20px rgb(110, 214, 248);
 }
 /* Team members paragraph */
-.mindstorm-team-img p {
+.team-img p {
   margin: -0.5rem;
 }
-/* MindStorm Team page image container */
-.mindstorm-img {
+/* Team page image container */
+.image {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -102,29 +101,29 @@
   margin-left: 2rem;
   margin-bottom: 2rem;
 }
-/* MindStorm team page image */
-.team-img {
+/* Team page image */
+.image img {
   max-width: 100%;
   height: auto;
 }
-/* Media Query for 950px & smaller */
+/* Media query for 950px & smaller */
 @media screen and (max-width: 950px) {
-  .mindstorm-container {
+  .container {
     width: 100%;
   }
-  .mindstorm-about p {
+  .about p {
     width: 76%;
   }
-  .mindstorm-team-img {
+  .team-img {
     width: 90%;
   }
 }
-/* Media Query for 599px & smaller */
+/* Media query for 500px & smaller */
 @media screen and (max-width: 500px) {
-  .mindstorm-about {
+  .about {
     margin-top: 8rem;
   }
-  .mindstorm-logo-title h1 {
+  .logo-title h1 {
     margin-top: -1rem;
   }
 }
