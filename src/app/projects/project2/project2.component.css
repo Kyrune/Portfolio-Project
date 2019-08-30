@@ -12,3 +12,29 @@
   background-color: rgba(12, 13, 14, 0.85);
   box-shadow: inset 0 0 20px rgb(247, 238, 211);
 }
+/* Images main container */
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Kierr-img div container */
+.image-one {
+  max-width: 100%;
+  height: auto;
+}
+/* Kierr-toc div container */
+.image-two {
+  max-width: 100%;
+  height: auto;
+}
+/* Front page image */
+.kierr-img {
+  width: 308.5px;
+  height: 456px;
+}
+/* TOC page image */
+.kierr-toc {
+  width: 307px;
+  height: 454.5px;
+}
