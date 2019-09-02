@@ -12,7 +12,7 @@
   background-color: rgba(12, 13, 14, 0.85);
   box-shadow: inset 0 0 20px rgb(247, 238, 211);
 }
-/* MindStorm title and image container */
+/* MindStorm title & image container */
 .logo-title {
   display: flex;
   flex-wrap: wrap;
@@ -20,32 +20,30 @@
   align-items: center;
   height: 4rem;
 }
-/* Mindstorm h1 title with project's font */
+/* Mindstorm h1 title with project font */
 .mindstorm-logo-title h1 {
   font-family: 'Merienda', cursive;
 }
-/* Title & description container */
-.about {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 4rem;
-}
 /* Paragraph for MindStorm description */
 .about p {
-  width: 56%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
   padding: 1.5rem;
+  margin: auto;
+  margin-top: 4rem;
   border-radius: 30px;
   color: rgb(110, 214, 248);
   background-color: rgb(12, 13, 14);
   box-shadow: inset 0 0 20px rgb(110, 214, 248);
 }
-/* Links to MindStorm's front and backend repos */
+/* Links to MindStorm front & backend repos */
 .about a {
   font-size: 1.6rem;
   color: rgb(110, 214, 248);
 }
-/* Hover effect for MindStorm front and backend repo links */
+/* Hover effect for MindStorm front & backend repo links */
 .about a:hover {
   text-decoration: none;
   border-radius: 20px;
@@ -53,7 +51,7 @@
   background-color: rgb(110, 214, 248);
   box-shadow: 0px 0px 20px rgb(110, 214, 248);
 }
-/* Team and image container */
+/* Team & image container */
 .team-img {
   display: flex;
   flex-direction: column;
