@@ -18,23 +18,9 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-/* Kierr-img div container */
-.image-one {
+
+/* Responsive images */
+.images img {
   max-width: 100%;
   height: auto;
-}
-/* Kierr-toc div container */
-.image-two {
-  max-width: 100%;
-  height: auto;
-}
-/* Front page image */
-.kierr-img {
-  width: 308.5px;
-  height: 456px;
-}
-/* TOC page image */
-.kierr-toc {
-  width: 307px;
-  height: 454.5px;
 }
