@@ -4,6 +4,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  text-align: center;
   width: 70%;
   margin: auto;
   margin-top: 3rem;
@@ -18,7 +19,7 @@ h1 {
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
-/* Paragraph for project completion time, description & repo link */
+/* Paragraph for Project completion date, description & repo link */
 .about p {
   display: flex;
   flex-direction: column;
@@ -55,4 +56,14 @@ h1 {
   max-width: 100%;
   height: auto;
   margin: 2rem;
+}
+
+/* Media query for 1050px & smaller */
+@media screen and (max-width: 1050px) {
+  .container {
+    width: 100%;
+  }
+  .about p {
+    width: 75%;
+  }
 }

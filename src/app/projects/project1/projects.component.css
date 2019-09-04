@@ -29,6 +29,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 55%;
   padding: 1.5rem;
   margin: auto;
@@ -82,24 +83,30 @@
   max-width: 100%;
   height: auto;
 }
-/* Media query for 950px & smaller */
-@media screen and (max-width: 950px) {
+/* Media query for 1050px & smaller */
+@media screen and (max-width: 1050px) {
   .container {
     width: 100%;
   }
   .about p {
-    width: 76%;
+    width: 75%;
   }
   .team-img {
-    width: 90%;
+    width: 80%;
+  }
+  .image {
+    margin: 1rem;
   }
 }
 /* Media query for 500px & smaller */
 @media screen and (max-width: 500px) {
   .about {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
   .logo-title h1 {
     margin-top: -1rem;
+  }
+  .team-img {
+    width: 90%;
   }
 }
