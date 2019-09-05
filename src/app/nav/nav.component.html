@@ -1,8 +1,24 @@
-<nav class="header">
+<!-- Navbar component -->
+<nav>
+  <!-- <i class="fa fa-navicon"></i> -->
   <h1>
-    ——————— {{ title }} Portfolio Page! ———————
+    <span>———————</span>
+    {{ title }} Portfolio Page!
+    <span>———————</span>
   </h1>
-  <a routerLink="home" routerLinkActive="active">Home</a>
-  <a routerLink="skills" routerLinkActive="active">Skills</a>
-  <a routerLink="projects" routerLinkActive="active">Projects</a>
+  <div class="links">
+    <a routerLink="home" routerLinkActive="active">
+      <i class="fa fa-home"></i>
+      Home
+    </a>
+    <a routerLink="skills" routerLinkActive="active">
+      <i class="fa fa-sitemap"></i>
+      <!-- <i class="fa fa-puzzle-piece"></i> -->
+      Skills
+    </a>
+    <a routerLink="projects" routerLinkActive="active">
+      <i class="fa fa-folder-open"></i>
+      Projects
+    </a>
+  </div>
 </nav>
