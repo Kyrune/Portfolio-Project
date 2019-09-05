@@ -7,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   aboutMe = `I\'m a junior web developer and I enjoy creating stuff!
-  My interests lie in frontend development and web design, where I can combine my previous skills in art with coding.
-  I pride myself on the ability to sit in front of a screen for hours on end in blissful solitude. I love learning new things,
-  and aim to learn from those more experienced than myself as I pursue opportunities to bring creativity
-  and passion to my code, team, and work environment.`;
+  My interests lie in frontend development and web design, where I can combine
+  my previous skills in art and writng with coding.
+  I pride myself on the ability to sit in front of a screen for hours on end in blissful solitude.
+  I love learning new things, and aim to learn from those more experienced than myself as I pursue
+  opportunities to bring creativity and passion to my code, team, and work environment.`;
 
   constructor() {}
 
