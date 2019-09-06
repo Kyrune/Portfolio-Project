@@ -1,21 +1,21 @@
 <!-- Navbar component -->
 <nav>
-  <!-- <i class="fa fa-navicon"></i> -->
   <h1>
     <span>———————</span>
     {{ title }} Portfolio Page!
     <span>———————</span>
   </h1>
-
+  <!-- <i class="fa fa-navicon"></i> -->
+  <!-- Links container -->
   <div class="links">
-    <div class="base-links">
+    <!-- Home, Skills & Projects page links -->
+    <div>
       <a routerLink="home" routerLinkActive="active">
         <i class="fa fa-home"></i>
         Home
       </a>
       <a routerLink="skills" routerLinkActive="active">
         <i class="fa fa-sitemap"></i>
-        <!-- <i class="fa fa-puzzle-piece"></i> -->
         Skills
       </a>
       <a routerLink="projects" routerLinkActive="active">
@@ -23,16 +23,17 @@
         Projects
       </a>
     </div>
-
-    <div class="out-links">
+    <!-- Links to LinkedIn & GitHub -->
+    <div>
       <a
-        class="linkedIn"
         target="_blank"
         href="https://www.linkedin.com/in/maria-ziemer-780178156/"
       >
+        <i class="fa fa-linkedin"></i>
         LinkedIn
       </a>
-      <a class="gitHub" target="_blank" href="https://github.com/Kyrune">
+      <a target="_blank" href="https://github.com/Kyrune">
+        <i class="fa fa-github"></i>
         GitHub
       </a>
     </div>
