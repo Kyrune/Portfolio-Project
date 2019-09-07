@@ -1,24 +1,86 @@
-<!-- Navbar component -->
 <nav>
-  <!-- <i class="fa fa-navicon"></i> -->
+  <!-- Author's name -->
   <h1>
     <span>———————</span>
     {{ title }} Portfolio Page!
     <span>———————</span>
   </h1>
+
+  <!-- Hamburger menu -->
+  <div class="dropdown">
+    <span>Menu</span>
+    <!-- Dropbox with Hamburger icon -->
+    <p class="dropbox">
+      <i class="fa fa-navicon"></i>
+    </p>
+    <!-- Dropdown content container -->
+    <div class="dropdown-content">
+      <!-- Home -->
+      <a routerLink="home" routerLinkActive="active">
+        <i class="fa fa-home"></i>
+        Home
+      </a>
+      <!-- Skills -->
+      <a routerLink="skills" routerLinkActive="active">
+        <i class="fa fa-sitemap"></i>
+        Skills
+      </a>
+      <!-- Projects -->
+      <a routerLink="projects" routerLinkActive="active">
+        <i class="fa fa-folder-open"></i>
+        Projects
+      </a>
+      <!-- LinkedIn -->
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/maria-ziemer-780178156/"
+      >
+        <i class="fa fa-linkedin"></i>
+        LinkedIn
+      </a>
+      <!-- GitHub -->
+      <a target="_blank" href="https://github.com/Kyrune">
+        <i class="fa fa-github"></i>
+        GitHub
+      </a>
+    </div>
+  </div>
+
+  <!-- Home, Skills & Projects page links -->
   <div class="links">
-    <a routerLink="home" routerLinkActive="active">
-      <i class="fa fa-home"></i>
-      Home
-    </a>
-    <a routerLink="skills" routerLinkActive="active">
-      <i class="fa fa-sitemap"></i>
-      <!-- <i class="fa fa-puzzle-piece"></i> -->
-      Skills
-    </a>
-    <a routerLink="projects" routerLinkActive="active">
-      <i class="fa fa-folder-open"></i>
-      Projects
-    </a>
+    <div>
+      <!-- Home -->
+      <a class="home" routerLink="home" routerLinkActive="active">
+        <i class="fa fa-home"></i>
+        Home
+      </a>
+      <!-- Skills -->
+      <a routerLink="skills" routerLinkActive="active">
+        <i class="fa fa-sitemap"></i>
+        Skills
+      </a>
+      <!-- Projects -->
+      <a routerLink="projects" routerLinkActive="active">
+        <i class="fa fa-folder-open"></i>
+        Projects
+      </a>
+    </div>
+
+    <!-- Links to LinkedIn & GitHub -->
+    <div>
+      <!-- LinkedIn -->
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/maria-ziemer-780178156/"
+      >
+        <i class="fa fa-linkedin"></i>
+        LinkedIn
+      </a>
+      <!-- GitHub -->
+      <a class="github" target="_blank" href="https://github.com/Kyrune">
+        <i class="fa fa-github"></i>
+        GitHub
+      </a>
+    </div>
   </div>
 </nav>
