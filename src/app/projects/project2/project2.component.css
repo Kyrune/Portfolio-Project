@@ -59,7 +59,7 @@ h1 {
 }
 
 /* Media query for 1050px & smaller */
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1170px) {
   .container {
     width: 100%;
   }
