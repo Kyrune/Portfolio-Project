@@ -1,23 +1,26 @@
 /* Sets distance of content from the top */
 :host {
   display: block;
-  margin-top: -0.5rem;
+  margin-top: 13rem;
 }
 /* Stylizes navbar */
 nav {
+  position: fixed;
+  width: 100%;
+  top: 0px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(12, 13, 14);
   padding-top: 1px;
   padding-bottom: 20px;
   margin-right: -10px;
   margin-left: -10px;
+  background-color: rgb(12, 13, 14);
   box-shadow: inset 0 0 30px rgb(110, 214, 248);
 }
 /* Navbar author's name */
 h1 {
-  color: rgb(110, 214, 248);
   padding: 10px;
+  color: rgb(110, 214, 248);
 }
 /* Positions navbar links div container */
 .links {
@@ -28,19 +31,19 @@ h1 {
 }
 /* Navbar links */
 .links a {
-  color: rgb(110, 214, 248);
   text-decoration: none;
-  padding: 10px;
   font-size: 1.3em;
+  padding: 10px;
   margin-right: 1.5rem;
   margin-left: 1.5rem;
+  color: rgb(110, 214, 248);
 }
 /* Hover effect for navbar links */
 .links a:hover {
-  background-color: rgb(110, 214, 248);
-  color: rgb(33, 38, 39);
-  box-shadow: 0px 0px 20px rgb(110, 214, 248);
   border-radius: 20px;
+  color: rgb(33, 38, 39);
+  background-color: rgb(110, 214, 248);
+  box-shadow: 0px 0px 20px rgb(110, 214, 248);
 }
 /* Stylizes LinkedIn icon */
 .fa-linkedin {
@@ -50,16 +53,16 @@ h1 {
 }
 /* Positions Hamburger menu's links container */
 .dropdown-content {
-  display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  display: none;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
   margin-top: 4rem;
+  z-index: 1;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* Media query for 710px or smaller */
+/* Media query for screens 710px or smaller */
 @media screen and (max-width: 710px) {
   /* Remove decorative lines from h1 title */
   h1 span {
@@ -67,7 +70,7 @@ h1 {
   }
 }
 
-/* Media query for 1000px or smaller */
+/* Media query for screens 1000px or smaller */
 @media screen and (max-width: 1000px) {
   /* Hides links */
   .links a {
@@ -75,8 +78,8 @@ h1 {
   }
   /* Sets color and size of Hamburger icon */
   .fa-navicon {
-    color: rgb(110, 214, 248);
     font-size: 2rem;
+    color: rgb(110, 214, 248);
   }
   /* Sets colors for LinkedIn icon in Menu */
   .fa-linkedin {
@@ -88,17 +91,17 @@ h1 {
     position: relative;
     display: flex;
     justify-content: flex-end;
+    width: 50%;
     margin: auto;
     margin-top: -1rem;
     margin-right: 2rem;
-    width: 50%;
   }
   /* Stylize dropdown menu links */
   .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
     display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+    color: black;
   }
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
@@ -111,13 +114,13 @@ h1 {
   /* Positions Hamburger menu text */
   .dropdown span {
     font-size: 1.2rem;
-    color: rgb(110, 214, 248);
     margin-top: 1.2rem;
     margin-right: 0.5rem;
+    color: rgb(110, 214, 248);
   }
 }
 
-/* Media queries for 999px or larger */
+/* Media queries for screens 999px or larger */
 @media screen and (min-width: 999px) {
   /* Remove Hamburger icon */
   .fa-navicon {

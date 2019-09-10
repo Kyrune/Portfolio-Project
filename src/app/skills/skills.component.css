@@ -5,63 +5,63 @@
 }
 /* Background style div container */
 .background {
-  margin-top: 3rem;
-  padding: 3rem;
   width: 60%;
+  padding: 3rem;
+  border-radius: 30px;
   background-color: rgba(12, 13, 14, 0.85);
   box-shadow: inset 0 0 20px rgb(247, 238, 211);
-  border-radius: 30px;
 }
-/* Skills top title */
+/* Stylizes Coding Skills title */
 h1 {
-  width: 50%;
   text-align: center;
+  width: 50%;
   padding: 0.5rem;
   margin: auto;
+  border-radius: 20px;
   color: rgb(110, 214, 248);
   background-color: rgb(12, 13, 14);
   box-shadow: inset 0 0 15px rgb(110, 214, 248);
-  border-radius: 20px;
 }
 /* Div container for list of skills */
 .skills-container {
   display: flex;
-  margin: auto;
   justify-content: center;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
   margin-top: 1em;
 }
-/* Stylizes skill names */
+/* Stylizes all skill names */
 h4 {
-  width: 7rem;
   text-align: center;
+  width: 7rem;
   padding: 0.5rem;
   margin: 1rem;
+  border-radius: 20px;
   color: rgb(110, 214, 248);
   background-color: rgb(12, 13, 14);
   box-shadow: inset 0 0 15px rgb(110, 214, 248);
-  border-radius: 20px;
 }
 /* Stylizes Misc Skills title */
 h2 {
-  width: 30%;
   text-align: center;
+  width: 30%;
   padding: 0.5rem;
   margin: auto;
   margin-top: 2em;
+  border-radius: 20px;
   color: rgb(110, 214, 248);
   background-color: rgb(12, 13, 14);
   box-shadow: inset 0 0 15px rgb(110, 214, 248);
-  border-radius: 20px;
 }
-/* Media query for 1050px & smaller */
-@media screen and (max-width: 1050px) {
+
+/* Media query for screens 1170px & smaller */
+@media screen and (max-width: 1170px) {
   .background {
     width: 100%;
   }
 }
-/* Media query for 650px & smaller */
+/* Media query for screens 650px & smaller */
 @media screen and (max-width: 650px) {
   h1 {
     width: 80%;

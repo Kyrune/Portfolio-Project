@@ -52,16 +52,17 @@ span {
   color: rgb(110, 214, 248);
 }
 /* About link hover effect */
-.more:hover {
+/* Todo: Add when About page is finished */
+/* .more:hover {
   border-radius: 20px;
   text-decoration: none;
   color: rgb(33, 38, 39);
   background-color: rgb(110, 214, 248);
   box-shadow: 0px 0px 20px rgb(110, 214, 248);
-}
+} */
 
-/* Media query for 1050px & smaller */
-@media screen and (max-width: 1050px) {
+/* Media query for screens 1170px & smaller */
+@media screen and (max-width: 1170px) {
   .about {
     width: 100%;
   }

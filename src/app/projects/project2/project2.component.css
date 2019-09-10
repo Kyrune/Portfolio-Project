@@ -24,7 +24,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 56%;
+  width: 70%;
   padding: 1.5rem;
   margin: auto;
   border-radius: 30px;
@@ -55,10 +55,11 @@ h1 {
 .images img {
   max-width: 100%;
   height: auto;
-  margin: 2rem;
+  margin: 1rem;
+  margin-top: 2rem;
 }
 
-/* Media query for 1050px & smaller */
+/* Media query for screens 1170px & smaller */
 @media screen and (max-width: 1170px) {
   .container {
     width: 100%;
