@@ -58,7 +58,7 @@ h1 {
   margin: 2rem;
 }
 
-/* Media query for 1050px & smaller */
+/* Media query for screens 1170px & smaller */
 @media screen and (max-width: 1170px) {
   .container {
     width: 100%;
