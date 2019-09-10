@@ -73,17 +73,15 @@
 .image {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
+  margin: 1rem;
 }
 /* Team page image */
 .image img {
   max-width: 100%;
   height: auto;
 }
-/* Media query for 1050px & smaller */
+
+/* Media query for screens 1170px & smaller */
 @media screen and (max-width: 1170px) {
   .container {
     width: 100%;
@@ -94,11 +92,8 @@
   .team-img {
     width: 80%;
   }
-  .image {
-    margin: 1rem;
-  }
 }
-/* Media query for 500px & smaller */
+/* Media query for screens 500px & smaller */
 @media screen and (max-width: 500px) {
   .about {
     margin-top: 5rem;
