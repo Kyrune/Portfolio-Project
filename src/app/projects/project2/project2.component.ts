@@ -6,10 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./project2.component.css']
 })
 export class Project2Component {
-  ionic = `An Android application that allows users to turn pages and navigate
+  ionic = `An Android application which allows users to turn pages and navigate
   to any chapter from the Table of Contents (TOC), as well as navigate back to
   the TOC from any page. This project includes an experimental sample from one of my planned stories.
   The front page image was created by me, using Photoshop and a Wacom tablet.`;
-
-  constructor() {}
 }
