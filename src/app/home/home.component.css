@@ -31,7 +31,6 @@
   border-radius: 50%;
   box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.9);
 }
-
 /* Stylizes paragraph (aboutMe) */
 p {
   width: 93%;
@@ -40,11 +39,6 @@ p {
   color: rgb(110, 214, 248);
   background-color: rgb(12, 13, 14);
   box-shadow: inset 0 0 20px rgb(110, 214, 248);
-}
-/* Contains aboutMe title */
-span {
-  font-size: 1.5em;
-  font-weight: bold;
 }
 /* About link */
 .more {
