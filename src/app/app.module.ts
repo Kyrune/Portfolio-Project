@@ -10,6 +10,7 @@ import { NavComponent } from './nav/nav.component';
 import { SkillsService } from './skills/skills.service';
 import { AboutComponent } from './about/about.component';
 import { Project2Component } from './projects/project2/project2.component';
+import { ProjectsPageComponent } from './projects/projects-page/projects-page.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { Project2Component } from './projects/project2/project2.component';
     SkillsComponent,
     NavComponent,
     AboutComponent,
-    Project2Component
+    Project2Component,
+    ProjectsPageComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [SkillsService],
