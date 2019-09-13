@@ -1,4 +1,4 @@
-/* Sets position of background image container */
+/* Sets position of background image */
 .background-image {
   position: fixed;
   top: 0;
@@ -12,4 +12,9 @@
   background-size: cover;
   background-image: url('../assets/images/circuits.jpg');
   z-index: -2;
+}
+/* Positions navigation bar above other components */
+app-nav {
+  position: relative;
+  z-index: 2;
 }
