@@ -8,7 +8,7 @@
   width: 65%;
   padding-bottom: 2rem;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   border-radius: 30px;
   color: rgb(110, 214, 248);
   background-color: rgba(12, 13, 14, 0.85);
@@ -19,7 +19,7 @@ h1 {
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
-/* Paragraph for Project completion date, description & repo link */
+/* Paragraph for completion date, description & repo link */
 .about p {
   display: flex;
   flex-direction: column;
@@ -32,12 +32,14 @@ h1 {
   background-color: rgb(12, 13, 14);
   box-shadow: inset 0 0 20px rgb(110, 214, 248);
 }
-/* Links to Project front & backend repos */
+/* Link to Project's repo */
 .about a {
   font-size: 1.6rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   color: rgb(110, 214, 248);
 }
-/* Hover effect for Project front & backend repo links */
+/* Hover effect for repo link */
 .about a:hover {
   text-decoration: none;
   border-radius: 20px;
@@ -57,6 +59,7 @@ h1 {
   height: auto;
   margin: 1rem;
   margin-top: 2rem;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.8);
 }
 
 /* Media query for screens 1170px & smaller */
