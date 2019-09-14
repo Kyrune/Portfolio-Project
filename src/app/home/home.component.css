@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 4rem;
 }
 /* Div container for About & Maria's image */
 .about {
