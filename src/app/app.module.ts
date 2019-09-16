@@ -3,16 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { SkillsComponent } from './skills/skills.component';
-import { NavComponent } from './nav/nav.component';
-import { SkillsService } from './skills/skills.service';
-import { AboutComponent } from './about/about.component';
-import { Project1Component } from './projects/project1/project1.component';
-import { ProjectsPageComponent } from './projects/projects-page/projects-page.component';
-import { Project2Component } from './projects/project2/project2.component';
-import { Project3Component } from './projects/project3/project3.component';
-import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './components/home/home.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { NavComponent } from './components/nav/nav.component';
+import { SkillsService } from './shared/skills.service';
+import { AboutComponent } from './components/about/about.component';
+import { Project1Component } from './components/projects/project1/project1.component';
+import { ProjectsPageComponent } from './components/projects/projects-page/projects-page.component';
+import { Project2Component } from './components/projects/project2/project2.component';
+import { Project3Component } from './components/projects/project3/project3.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Skills } from './skills.model';
-import { SkillsService } from './skills.service';
+import { Skills } from '../../shared/skills.model';
+import { SkillsService } from '../../shared/skills.service';
 
 /** Skills component */
 @Component({
