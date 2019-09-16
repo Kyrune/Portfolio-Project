@@ -1,4 +1,4 @@
-/* "My List of Projects" title */
+/* "My Projects!" title */
 h1 {
   text-align: center;
   width: 65%;
@@ -14,20 +14,30 @@ h1 {
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
   width: 66%;
   margin: auto;
+  margin-bottom: 18.5rem;
   border-radius: 30px;
   background-color: rgba(12, 13, 14, 0.85);
   box-shadow: inset 0 0 20px rgb(247, 238, 211);
 }
-/* Stylizes outer div */
+/* Positions outer div */
 .outer-div {
   position: relative;
+  display: flex;
+  justify-content: center;
+  margin: -1rem;
 }
 /* Project title fades in on hover*/
 .outer-div:hover .title {
   opacity: 1;
+}
+/* Inner-div with image fades out on hover */
+/* Ensures it fades out even when mouse is over the outer-div/title */
+.outer-div:hover .inner-div {
+  opacity: 0.4;
 }
 /* Stylizes individual image div containers */
 .inner-div {
@@ -47,13 +57,12 @@ h1 {
 .inner-div:hover {
   opacity: 0.4;
 }
-/* Project titles */
+/* Stylizes Project titles */
 .title {
   position: absolute;
   font-size: 1.5rem;
   text-decoration: none;
   top: 20%;
-  left: 20%;
   opacity: 0;
   z-index: 1;
   color: rgb(110, 214, 248);
@@ -75,5 +84,13 @@ img {
   }
   .container {
     width: 100%;
+  }
+}
+
+/* Media query for screens 808px & smaller */
+@media screen and (max-width: 808px) {
+  /* Adjusts distance from footer */
+  .container {
+    margin-bottom: 4rem;
   }
 }
