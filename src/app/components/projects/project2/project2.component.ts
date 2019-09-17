@@ -10,4 +10,6 @@ export class Project2Component {
   to any chapter from the Table of Contents (TOC), as well as navigate back to
   the TOC from any page. This project includes an experimental sample from one of my planned stories.
   The front page image was created by me, using Photoshop and a Wacom tablet.`;
+
+  tech = `HTML, CSS, Angular, TypeScript (TS), Cordova, Ionic, Node, Visual Studio Code, Photoshop and GitHub`;
 }

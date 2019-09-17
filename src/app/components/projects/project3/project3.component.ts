@@ -16,6 +16,8 @@ export class Project3Component implements OnInit {
   was made even cooler by Cameron Schilling, the lead Graphic Designer at
   Royal Branding. Check out his website below!`;
 
+  tech = `HTML, CSS, Angular, TypeScript (TS), Node, NPM, Visual Studio Code, Photoshop, Git and GitHub`;
+
   constructor() {}
 
   ngOnInit() {}
