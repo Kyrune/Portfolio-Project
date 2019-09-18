@@ -13,6 +13,7 @@ export class SkillsComponent implements OnInit {
   /** Skills array in Skills Service */
   skills: Skills[];
 
+  /** Constructor connects to {@link SkillsService} */
   constructor(private skillsService: SkillsService) {
     this.skills = skillsService.skills;
   }
