@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
-/* Home component */
+/** Home component */
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  /* Author's description */
+  /** Author's description */
   aboutMe = `I\'m a junior web developer and I enjoy creating stuff!
   My interests lie in frontend development and web design, where I can combine
   my previous skills in art and writng with coding.
