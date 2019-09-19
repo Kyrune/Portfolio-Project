@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 /** 1st project component */
 @Component({
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './project1.component.html',
   styleUrls: ['./project1.component.css']
 })
-export class Project1Component implements OnInit {
+export class Project1Component {
   /** Project description */
   mindstorm = `Group project MindStorm is a MEAN stack website geared toward writers
   for the purpose of providing a place to brainstorm ideas for stories
@@ -16,8 +16,4 @@ export class Project1Component implements OnInit {
   tech = `HTML5, CSS, Angular, TypeScript (TS), Angular Materials, MongoDB,
   Mongoose, JWT, Multer, mLab, Express, Node, NPM, REST, Compodoc, AWS,
   Visual Studio Code, Git and GitHub`;
-
-  constructor() {}
-
-  ngOnInit() {}
 }
