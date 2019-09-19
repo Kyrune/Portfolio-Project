@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 /** 3rd project component */
 @Component({
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './project3.component.html',
   styleUrls: ['./project3.component.css']
 })
-export class Project3Component implements OnInit {
+export class Project3Component {
   /** Portfolio project description */
   portfolio = `This is my personal Portfolio website, which you are currently perusing.
   It was built from scratch using the Angular framework, and you are welcome to look
@@ -21,8 +21,4 @@ export class Project3Component implements OnInit {
 
   /** List of tech used in the portfolio project */
   tech = `HTML, CSS, Angular, TypeScript (TS), Node, NPM, Visual Studio Code, Photoshop, Git and GitHub`;
-
-  constructor() {}
-
-  ngOnInit() {}
 }
