@@ -12,7 +12,7 @@ export class Project3Component {
   It was built from scratch using the Angular framework, and you are welcome to look
   at the code used in its construction (GitHub link below).
   I will continue to work on it as my coding skills grow,
-  and plan to eventually shift it to a different framework/library.`;
+  and plan to eventually shift it to a different framework/library. Preferably React.`;
 
   /** Cyborg logo description of who made it pretty */
   royal = `My cyborg logo, derived from the team logo I made for Project MindStorm,
@@ -20,5 +20,5 @@ export class Project3Component {
   Royal Branding. Check out his website below!`;
 
   /** List of tech used in the portfolio project */
-  tech = `HTML, CSS, Angular, TypeScript (TS), Node, NPM, Visual Studio Code, Photoshop, Git and GitHub`;
+  tech = `HTML, CSS, Flexbox, Angular, TypeScript (TS), Node, NPM, Visual Studio Code, Photoshop, Git and GitHub`;
 }
