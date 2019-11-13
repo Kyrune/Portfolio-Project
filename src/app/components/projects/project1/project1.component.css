@@ -85,8 +85,8 @@
 
 /* Gallery styling */
 ngx-gallery {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Media query for screens 1170px & smaller */
