@@ -72,16 +72,16 @@
   margin: -0.5rem;
 }
 /* Team page image container */
-.image {
+/* .image {
   display: flex;
   justify-content: center;
   margin: 1rem;
-}
+} */
 /* Team page image */
-.image img {
+/* .image img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 /* Media query for screens 1170px & smaller */
 @media screen and (max-width: 1170px) {
