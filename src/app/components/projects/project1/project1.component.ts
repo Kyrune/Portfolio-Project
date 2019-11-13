@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {
   NgxGalleryOptions,
   NgxGalleryImage,
-  NgxGalleryAnimation
+  NgxGalleryAnimation,
+  NgxGalleryImageSize
 } from 'ngx-gallery';
 
 /** 1st project component */
@@ -34,13 +35,14 @@ export class Project1Component implements OnInit {
         height: '400px',
         thumbnailsColumns: 4,
         previewCloseOnClick: true,
+        imageSize: NgxGalleryImageSize.Contain,
         imageAnimation: NgxGalleryAnimation.Zoom
       },
       /** Max-width 800 */
       {
         breakpoint: 800,
         width: '90%',
-        height: '600px',
+        height: '300px',
         imagePercent: 80,
         thumbnailsPercent: 20,
         thumbnailsMargin: 20,
@@ -49,7 +51,7 @@ export class Project1Component implements OnInit {
       /** Max-width 400 */
       {
         breakpoint: 400,
-        preview: false
+        height: '200px'
       }
     ];
 
