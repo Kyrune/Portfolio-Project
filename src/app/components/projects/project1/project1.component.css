@@ -83,6 +83,12 @@
   height: auto;
 } */
 
+/* Gallery styling */
+ngx-gallery {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
 /* Media query for screens 1170px & smaller */
 @media screen and (max-width: 1170px) {
   .container {
