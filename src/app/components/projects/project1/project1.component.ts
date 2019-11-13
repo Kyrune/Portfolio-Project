@@ -30,15 +30,16 @@ export class Project1Component implements OnInit {
   ngOnInit(): void {
     this.galleryOptions = [
       {
-        width: '700px',
+        width: '90%',
         height: '400px',
         thumbnailsColumns: 4,
+        previewCloseOnClick: true,
         imageAnimation: NgxGalleryAnimation.Zoom
       },
       /** Max-width 800 */
       {
         breakpoint: 800,
-        width: '100%',
+        width: '90%',
         height: '600px',
         imagePercent: 80,
         thumbnailsPercent: 20,
