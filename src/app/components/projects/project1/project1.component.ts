@@ -33,7 +33,7 @@ export class Project1Component implements OnInit {
         width: '700px',
         height: '400px',
         thumbnailsColumns: 4,
-        imageAnimation: NgxGalleryAnimation.Slide
+        imageAnimation: NgxGalleryAnimation.Zoom
       },
       /** Max-width 800 */
       {
