@@ -26,8 +26,6 @@ export class Project1Component implements OnInit {
   Mongoose, JWT, Multer, mLab, Express, Node, NPM, REST, Compodoc, AWS,
   Visual Studio Code, Git and GitHub`;
 
-  constructor() {}
-
   ngOnInit(): void {
     this.galleryOptions = [
       {
@@ -35,6 +33,7 @@ export class Project1Component implements OnInit {
         height: '400px',
         thumbnailsColumns: 4,
         previewCloseOnClick: true,
+        previewSwipe: true,
         imageSize: NgxGalleryImageSize.Contain,
         imageAnimation: NgxGalleryAnimation.Zoom
       },
