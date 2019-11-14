@@ -89,6 +89,11 @@ ngx-gallery {
   margin-bottom: 2rem;
 }
 
+ngx-gallery /deep/ ngx-gallery-image .ngx-gallery-arrow {
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+
 /* Media query for screens 1170px & smaller */
 @media screen and (max-width: 1170px) {
   .container {
