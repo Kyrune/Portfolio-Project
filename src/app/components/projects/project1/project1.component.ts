@@ -24,8 +24,9 @@ export class Project1Component implements OnInit {
   /** List of tech used in Project MindStorm */
   tech = `HTML5, CSS, Angular, TypeScript (TS), Angular Materials, MongoDB,
   Mongoose, JWT, Multer, mLab, Express, Node, NPM, REST, Compodoc, AWS,
-  Visual Studio Code, Git and GitHub`;
+  Visual Studio Code, Git, and GitHub`;
 
+  /** Gallery Options */
   ngOnInit(): void {
     this.galleryOptions = [
       {
@@ -54,6 +55,7 @@ export class Project1Component implements OnInit {
       }
     ];
 
+    /** Gallery Images */
     this.galleryImages = [
       {
         small: '../assets/images/11-lightmode.jpg',
