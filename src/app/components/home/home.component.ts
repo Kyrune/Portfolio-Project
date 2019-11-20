@@ -14,5 +14,5 @@ export class HomeComponent {
   I pride myself on the ability to sit in front of a screen for hours on end in blissful solitude,
   as attested to by the blinding white bloom that is my face.
   I love learning new things, and aim to learn from those more experienced than myself as I pursue
-  opportunities to bring creativity and passion to my code, team and work environment.`;
+  opportunities to bring creativity and passion to my code, team, and work environment.`;
 }
