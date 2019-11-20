@@ -71,17 +71,6 @@
 .team-img p {
   margin: -0.5rem;
 }
-/* Team page image container */
-/* .image {
-  display: flex;
-  justify-content: center;
-  margin: 1rem;
-} */
-/* Team page image */
-/* .image img {
-  max-width: 100%;
-  height: auto;
-} */
 
 /* Gallery styling */
 ngx-gallery {
