@@ -3,12 +3,14 @@
   <!-- Note: mindstorm-date-logo helps keep image logo & title centered -->
   <div class="date-logo">
     <div class="logo-title">
+      <!-- Logo image -->
       <img
         src="./assets/images/mindstorm-logo.png"
         width="150"
         height="150"
         alt="MindStorm Logo"
       />
+      <!-- Project title -->
       <h1>
         Project Mindstorm
       </h1>
@@ -54,12 +56,14 @@
       <br />
       <br />
       <span>
-        (Image logos for Syntax Cyborgs and MindStorm were created by Maria
-        Ziemer.)
+        Image logos for Syntax Cyborgs and MindStorm were created by Maria
+        Ziemer.
       </span>
     </p>
-    <div class="image">
-      <img src="./assets/images/mindstorm-team.png" alt="Team Page" />
-    </div>
+    <!-- Image Gallery -->
+    <ngx-gallery
+      [options]="galleryOptions"
+      [images]="galleryImages"
+    ></ngx-gallery>
   </div>
 </div>
