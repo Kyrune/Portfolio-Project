@@ -14,5 +14,5 @@ export class Project2Component {
   The front page image was created by me, using Photoshop and a Wacom tablet.`;
 
   /** List of tech used in the Page-Turner project */
-  tech = `HTML, CSS, Angular, TypeScript (TS), Cordova, Ionic, Node, Visual Studio Code, Photoshop and GitHub`;
+  tech = `HTML, CSS, Angular, TypeScript (TS), Cordova, Ionic, Node, Visual Studio Code, Photoshop, and GitHub`;
 }
