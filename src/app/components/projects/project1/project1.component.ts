@@ -58,69 +58,69 @@ export class Project1Component implements OnInit {
     /** Gallery Images */
     this.galleryImages = [
       {
-        small: '../assets/images/11-lightmode.jpg',
-        medium: '../assets/images/11-lightmode.jpg',
-        big: '../assets/images/11-lightmode.jpg',
+        small: './assets/images/11-lightmode.jpg',
+        medium: './assets/images/11-lightmode.jpg',
+        big: './assets/images/11-lightmode.jpg',
         description: 'Team Page with Light-mode Option'
       },
       {
-        small: '../assets/images/10-darkmode.jpg',
-        medium: '../assets/images/10-darkmode.jpg',
-        big: '../assets/images/10-darkmode.jpg',
+        small: './assets/images/10-darkmode.jpg',
+        medium: './assets/images/10-darkmode.jpg',
+        big: './assets/images/10-darkmode.jpg',
         description: 'Team Page with Dark-mode Option'
       },
       {
-        small: '../assets/images/1-mainpage.jpg',
-        medium: '../assets/images/1-mainpage.jpg',
-        big: '../assets/images/1-mainpage.jpg',
+        small: './assets/images/1-mainpage.jpg',
+        medium: './assets/images/1-mainpage.jpg',
+        big: './assets/images/1-mainpage.jpg',
         description: 'The Main Page'
       },
       {
-        small: '../assets/images/2-mainpage.jpg',
-        medium: '../assets/images/2-mainpage.jpg',
-        big: '../assets/images/2-mainpage.jpg',
+        small: './assets/images/2-mainpage.jpg',
+        medium: './assets/images/2-mainpage.jpg',
+        big: './assets/images/2-mainpage.jpg',
         description: 'The Main Page with Open Story Tab'
       },
       {
-        small: '../assets/images/3-create story.jpg',
-        medium: '../assets/images/3-create story.jpg',
-        big: '../assets/images/3-create story.jpg',
+        small: './assets/images/3-create story.jpg',
+        medium: './assets/images/3-create story.jpg',
+        big: './assets/images/3-create story.jpg',
         description: 'Create Your Story and Upload an Image'
       },
       {
-        small: '../assets/images/4-edit story.jpg',
-        medium: '../assets/images/4-edit story.jpg',
-        big: '../assets/images/4-edit story.jpg',
+        small: './assets/images/4-edit story.jpg',
+        medium: './assets/images/4-edit story.jpg',
+        big: './assets/images/4-edit story.jpg',
         description: 'Edit Your Story and Image'
       },
       {
-        small: '../assets/images/5-warning.jpg',
-        medium: '../assets/images/5-warning.jpg',
-        big: '../assets/images/5-warning.jpg',
+        small: './assets/images/5-warning.jpg',
+        medium: './assets/images/5-warning.jpg',
+        big: './assets/images/5-warning.jpg',
         description: 'A Warning'
       },
       {
-        small: '../assets/images/6-character traits.jpg',
-        medium: '../assets/images/6-character traits.jpg',
-        big: '../assets/images/6-character traits.jpg',
+        small: './assets/images/6-character traits.jpg',
+        medium: './assets/images/6-character traits.jpg',
+        big: './assets/images/6-character traits.jpg',
         description: 'List of Your Character Traits'
       },
       {
-        small: '../assets/images/7-create character trait.jpg',
-        medium: '../assets/images/7-create character trait.jpg',
-        big: '../assets/images/7-create character trait.jpg',
+        small: './assets/images/7-create character trait.jpg',
+        medium: './assets/images/7-create character trait.jpg',
+        big: './assets/images/7-create character trait.jpg',
         description: 'Add Traits to Your Character'
       },
       {
-        small: '../assets/images/8-signup.jpg',
-        medium: '../assets/images/8-signup.jpg',
-        big: '../assets/images/8-signup.jpg',
+        small: './assets/images/8-signup.jpg',
+        medium: './assets/images/8-signup.jpg',
+        big: './assets/images/8-signup.jpg',
         description: 'Signup Page'
       },
       {
-        small: '../assets/images/9-login.jpg',
-        medium: '../assets/images/9-login.jpg',
-        big: '../assets/images/9-login.jpg',
+        small: './assets/images/9-login.jpg',
+        medium: './assets/images/9-login.jpg',
+        big: './assets/images/9-login.jpg',
         description: 'Login Page'
       }
     ];
