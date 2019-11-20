@@ -37,6 +37,7 @@ export class SkillsService {
     { id: 22, name: 'Git' },
     { id: 23, name: 'Ionic' },
     { id: 24, name: 'Cordova' },
-    { id: 25, name: 'React' }
+    { id: 25, name: 'React' },
+    { id: 26, name: 'PHP' }
   ];
 }
